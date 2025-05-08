@@ -21,3 +21,74 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+*{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.kontejner{
+    width: 670px;
+    margin: 0 auto;
+    display: flex;
+    height: 440px;
+    border-radius: 15px;
+}
+
+
+/* levy sloupec */
+
+.zelena{
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    position: relative;
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+.slogan{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 30px;
+}
+
+.nike{
+    margin: 30px 0 0 30px;
+}
+
+.bota{
+    position: absolute;
+    left: -80px;
+    bottom: 15px;
+}
+
+.cenovka{
+    color: white;
+position: absolute;
+right: 30px;
+bottom: 30px;
+}
+
+.kc{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.zaruka{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* pravy sloupec */
+
+.bila{
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 500;
+}
